@@ -1,0 +1,16 @@
+{
+  "name": "ct-firecrawl-local-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Creators Toolbox examples using an external local Firecrawl API",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "watch": "node --env-file=.env examples/changelog-watch.mjs",
+    "pricing": "node --env-file=.env examples/pricing-snapshot.mjs",
+    "test": "node --test tests/examples.test.mjs"
+  }
+}
